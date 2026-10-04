@@ -18,7 +18,7 @@ Feuerstein - financial data pipelines/processing:
  - [foerderturm](https://github.com/feuerstein-org/foerderturm-public) - Market data ingestion with Dagster
  - [bergschacht](https://github.com/feuerstein-org/bergschacht-public) - AWS infrastructure, pipelines and data-lake schemas
  - [bergtalzug](https://github.com/feuerstein-org/bergtalzug) - Python ETL pipelines with queues and workers
- - [seilbahn](https://github.com/feuerstein-org/seilbahn-public) - GitHub Actions workflows
+ - [seilbahn](https://github.com/feuerstein-org/seilbahn) - GitHub Actions workflows
  - [bergschacht-custom-resources](https://github.com/feuerstein-org/bergschacht-custom-resources-public) - CDK custom resources e.g. for managing S3 Tables
 
 Languages I enjoy the most:
