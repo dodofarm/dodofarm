@@ -5,6 +5,8 @@ Beyond my day job I'm currently working on [Feuerstein](https://github.com/feuer
 
 I also spent quite a bit of time recently looking into codegen, OpenAPI and Smithy, while writing SDKs for some financial APIs I realized that a lot of the logic like pagination and rate limiting (see my Redis based ratelimiter [here](https://github.com/feuerstein-org/steindamm)) can be shared so I created an API client SDK framework - [spitzeisen](https://github.com/feuerstein-org/spitzeisen). To eventually be able to generate code from just an OpenAPI spec or a Smithy model I'm hoping to use [smithy-translate](https://github.com/disneystreaming/smithy-translate) but for now we need to finalize [OpenAPI 3.1 support](https://github.com/disneystreaming/smithy-translate/issues/306).
 
+> Note: None of the projects are "AI slop", *please* don't open PRs that came from your AI agent and didn't go through human review. If you have an LLM generate something and then reviewed it yourself, submission are welcome.
+
 My SDKs:
 
  - [massive-api](https://github.com/feuerstein-org/massive-api) - Massive.com API, I've added a few API endpoints I needed but more to follow
