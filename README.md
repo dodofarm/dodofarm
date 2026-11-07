@@ -1,7 +1,7 @@
 ## Hi! 🦤
 
 I love working on open source projects as well as open sourcing my own projects.
-Beyond my day job I'm currently working on [Feuerstein](https://github.com/feuerstein-org), essentially a setup where I'm building the data pipelines ([foerderturm repo](https://github.com/feuerstein-org/foerderturm)) and infrastructure ([bergschacht CDK repo](https://github.com/feuerstein-org/bergschacht-public)) for trading research which is essentially fully open source.
+Beyond my day job I'm currently working on [Feuerstein](https://github.com/feuerstein-org), essentially a setup where I'm building the data pipelines ([foerderturm repo](https://github.com/feuerstein-org/foerderturm)) and infrastructure ([bergschacht CDK repo](https://github.com/feuerstein-org/bergschacht-public)) for trading research which is essentially fully open source. I also have a small blog which can be found here: [dodofarm.net](https://dodofarm.net)
 
 I also spent quite a bit of time recently looking into codegen, OpenAPI and Smithy, while writing SDKs for some financial APIs I realized that a lot of the logic like pagination and rate limiting (see my Redis based ratelimiter [here](https://github.com/feuerstein-org/steindamm)) can be shared so I created an API client SDK framework - [spitzeisen](https://github.com/feuerstein-org/spitzeisen). To eventually be able to generate code from just an OpenAPI spec or a Smithy model I'm hoping to use [smithy-translate](https://github.com/disneystreaming/smithy-translate) but for now we need to finalize [OpenAPI 3.1 support](https://github.com/disneystreaming/smithy-translate/issues/306).
 
